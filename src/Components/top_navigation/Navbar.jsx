@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <>
     {/* desktop */}
-    <div className="hidden md:flex justify-between items-center bg-primary text-white text-[14px] px-[20px]">
+    <div className="hidden md:flex justify-between items-center bg-primary text-white text-[14px] px-[40px]">
       <div className="section-1">
         <div className="brand-container">
           <img src="brand.svg" alt="" />

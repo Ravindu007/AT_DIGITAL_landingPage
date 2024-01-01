@@ -44,7 +44,7 @@ const Home = () => {
             </div>
 
             <div className="right md:w-[60%] h-full flex flex-col justify-center md:items-start items-center gap-[20px] border-2 border-blue-400 md:pl-[20px]">
-              <p className="text-primary font-semibold text-[27px] leading-[33px] text-center">Web & Mobile App Development</p>
+              <p className="text-primary font-semibold text-[27px] leading-[33px] text-center md:text-start ">Web & Mobile App Development</p>
               <p className='text-[16px] text-center md:text-start'>Your web and mobile Apps are pieces of the puzzle to grow your business. We use frameworks which tailor content and engagement methods to respond to different intents shown by your potential customers who interact with your business online.</p>
               <ButtonLearnMore></ButtonLearnMore>
             </div>
@@ -57,7 +57,7 @@ const Home = () => {
           <div className="md:h-[276px] flex flex-col md:flex-row border-2 border-black">
             
             {/* desktop view */}
-            <div className="left hidden md:flex md:w-[60%] h-full flex-col justify-center gap-[20px] border-2 border-blue-400 pl-[20px]">
+            <div className="left hidden md:flex md:w-[60%] h-full flex-col justify-center gap-[20px] border-2 border-blue-400 ">
               <p className="text-primary font-semibold text-[27px] leading-[33px]">Digital Strategy Consulting</p>
               <p>Your digital strategy should complement the overall marketing strategy of the company. In online marketing, each component will never work in isolation and every business needs a different mix. We provide a clear concept and strategic overview to find the most efficient model for your business.</p>
               <ButtonLearnMore></ButtonLearnMore>

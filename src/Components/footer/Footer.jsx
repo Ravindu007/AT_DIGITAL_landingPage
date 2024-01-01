@@ -5,18 +5,18 @@ const Footer = () => {
     <div className="footer bg-primary h-full flex flex-col gap-[60px]  px-[20px] md:px-[40px] py-[40px] text-white">
 
       {/* row 1 */}
-      <div className="row flex flex-col md:w-[60%] gap-[20px] border-2">
+      <div className="row flex flex-col md:w-[413px] gap-[20px] border-2">
         <div className="brand-container">
           <img src="brand.svg" alt="" />
         </div>
-        <p>Your goal is our target. Not anything in between. We use online marketing platforms and tools to achieve single objective - your business results.</p>
+        <p className='text-[16px] leading-[19.2px] font-normal'>Your goal is our target. Not anything in between. We use online marketing platforms and tools to achieve single objective - your business results.</p>
       </div>
 
         {/* row 2 */}
-      <div className="row flex  flex-col md:flex-row gap-[40px] md:gap-[316px] w-[75%] border-2">
+      <div className="row flex  flex-col md:flex-row gap-[40px] md:gap-[79px] w-[75%] border-2">
 
         <div className="left border-2">
-          <ul className='flex flex-col gap-[12px]'>
+          <ul className='flex flex-col gap-[12px] pr-[37px] border-2'>
             <li className="font-semibold text-[21px]">Our Technologies</li>
             <li className='text-[12px] md:text-[14px]'>ReactJS</li>
             <li className='text-[12px] md:text-[14px]'>Gatsby</li>
@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
 
         <div className="right border-2">
-        <ul className='flex flex-col gap-[12px]'>
+        <ul className='flex flex-col gap-[12px] border-2'>
             <li className="font-semibold text-[21px]">Our Services</li>
             <li className='text-[12px] md:text-[14px]'>Social media Marketing</li>
             <li className='text-[12px] md:text-[14px]'>Web & Mobile App Development</li>
