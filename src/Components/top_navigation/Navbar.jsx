@@ -1,6 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Navbar = () => {
+
+
+  const [show, setShow] = useState(false)
+
+  const toggleShowMenu = () => {
+    setShow(prev => !prev)
+  }
+
   return (
     <>
     {/* desktop */}
@@ -20,7 +28,7 @@ const Navbar = () => {
       </div>
     </div>
     {/* mobile view */}
-    <div className="flex md:hidden justify-between items-center bg-primary text-white px-[20px] py-[26px]">
+    <div className="fixed w-full flex md:hidden justify-between items-center bg-primary text-white px-[20px] py-[26px]">
       <div className="section-1">
         <div className="brand-container">
           <img src="brand.svg" alt="" />
@@ -28,10 +36,23 @@ const Navbar = () => {
       </div>
       <div className="section-2">
         <div className="button-container">
-          <button><img src="bugger.svg" alt="" /></button>
+          <button onClick={toggleShowMenu}><img src="bugger.svg" alt="" /></button>
         </div>
       </div>
     </div>
+
+
+    {/* mobile menu */}
+      {show && (
+          <div className="fixed w-full md:hidden bg-primary text-white px-[20px] py-[26px] top-20">
+          <ul className='flex flex-col gap-[10px] py-[10px]'>
+            <li>SERVICES</li>
+            <li>ABOUT US</li>
+            <li>CONTACT US</li>
+            <li>CAREERS</li>
+          </ul>
+    </div>
+    )}
    </>
   )
 }
