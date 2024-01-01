@@ -28,7 +28,7 @@ const Navbar = () => {
       </div>
       <div className="section-2">
         <div className="button-container">
-          <img src="bugger.svg" alt="" />
+          <button><img src="bugger.svg" alt="" /></button>
         </div>
       </div>
     </div>

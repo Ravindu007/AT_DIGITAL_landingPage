@@ -49,7 +49,7 @@ const Home = () => {
 
         {/* about-section */}
         <div className="about px-[20px] md:px-[40px] py-[30px]">
-          <div className="md:h-[275px] flex flex-col md:flex-row xlg:px-[153px]">
+          <div className="md:h-[275px] flex flex-col md:flex-row lg:px-[152px]  xlg:px-[188px]">
 
             <div className="left md:w-[40%] h-full flex justify-center items-center">
               <img src="about/about.svg" alt="" className='w-[275px] h-[275px]'/>
@@ -65,11 +65,11 @@ const Home = () => {
 
       
         {/* contact-section */}
-        <div className="contact px-[20px] md:px-[40px] py-[30px]">
+        <div className="contact px-[20px] md:px-[40px] py-[60px] md:py-[30px]">
           <div className="md:h-[276px] flex flex-col md:flex-row ">
             
             {/* desktop view */}
-            <div className="left hidden md:flex md:w-[60%] h-full flex-col justify-center gap-[20px] xlg:px-[153px]">
+            <div className="left hidden md:flex md:w-[60%] h-full flex-col justify-center gap-[20px]  lg:px-[152px]  xlg:px-[188px]">
               <p className="text-primary font-semibold text-[27px] leading-[33px]">Digital Strategy Consulting</p>
               <p>Your digital strategy should complement the overall marketing strategy of the company. In online marketing, each component will never work in isolation and every business needs a different mix. We provide a clear concept and strategic overview to find the most efficient model for your business.</p>
               <ButtonLearnMore></ButtonLearnMore>

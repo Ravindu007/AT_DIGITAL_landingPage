@@ -18,7 +18,7 @@ export default {
 
         'xlg': '1440px'
       },
-      
+
       colors:{
         primary: '#6B3CC9',
         secondary: '#F28D35',
