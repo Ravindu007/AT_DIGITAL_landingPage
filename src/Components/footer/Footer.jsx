@@ -2,10 +2,10 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className="footer bg-primary h-full flex flex-col gap-[60px]  px-[20px] md:px-[40px] py-[40px] text-white">
+    <div className="footer bg-primary h-full flex flex-col gap-[60px]  px-[20px] md:px-[40px] py-[40px] lg:px-[60px] text-white">
 
       {/* row 1 */}
-      <div className="row flex flex-col md:w-[413px] gap-[20px] border-2">
+      <div className="row flex flex-col md:w-[413px] gap-[20px] ">
         <div className="brand-container">
           <img src="brand.svg" alt="" />
         </div>
@@ -13,10 +13,10 @@ const Footer = () => {
       </div>
 
         {/* row 2 */}
-      <div className="row flex  flex-col md:flex-row gap-[40px] md:gap-[79px] w-[75%] border-2">
+      <div className="row flex  flex-col md:flex-row gap-[40px] md:gap-[79px] w-[75%] ">
 
-        <div className="left border-2">
-          <ul className='flex flex-col gap-[12px] pr-[37px] border-2'>
+        <div className="left">
+          <ul className='flex flex-col gap-[12px] pr-[37px]'>
             <li className="font-semibold text-[21px]">Our Technologies</li>
             <li className='text-[12px] md:text-[14px]'>ReactJS</li>
             <li className='text-[12px] md:text-[14px]'>Gatsby</li>
@@ -27,8 +27,8 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="right border-2">
-        <ul className='flex flex-col gap-[12px] border-2'>
+        <div className="right">
+        <ul className='flex flex-col gap-[12px]'>
             <li className="font-semibold text-[21px]">Our Services</li>
             <li className='text-[12px] md:text-[14px]'>Social media Marketing</li>
             <li className='text-[12px] md:text-[14px]'>Web & Mobile App Development</li>
