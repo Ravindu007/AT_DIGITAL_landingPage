@@ -41,7 +41,7 @@ const Footer = () => {
 
 
       <div className="row">
-        <hr className='h-[10px]'/>
+        <hr className=''/>
         <div className='flex justify-center gap-8 text-[14px]'>
           <p>Privacy Policy</p>
           <p>|</p>

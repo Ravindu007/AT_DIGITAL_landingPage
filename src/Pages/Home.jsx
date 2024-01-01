@@ -42,9 +42,9 @@ const Home = () => {
               <img src="about/about.svg" alt="" className='w-[275px] h-[275px]'/>
             </div>
 
-            <div className="right md:w-[60%] h-full flex flex-col justify-center items-center gap-[20px] border-2 border-blue-400 pl-[20px]">
-              <p className="text-primary font-semibold text-[27px] leading-[33px] text-center">Web & Mobile App Development</p>
-              <p className='text-[16px] text-center'>Your web and mobile Apps are pieces of the puzzle to grow your business. We use frameworks which tailor content and engagement methods to respond to different intents shown by your potential customers who interact with your business online.</p>
+            <div className="right md:w-[60%] h-full flex flex-col justify-center md:items-start items-center gap-[20px] border-2 border-blue-400 pl-[20px]">
+              <p className="text-primary font-semibold text-[27px] leading-[33px] md:text-center">Web & Mobile App Development</p>
+              <p className='text-[16px] text-center md:text-start'>Your web and mobile Apps are pieces of the puzzle to grow your business. We use frameworks which tailor content and engagement methods to respond to different intents shown by your potential customers who interact with your business online.</p>
               <Button></Button>
             </div>
           </div>
