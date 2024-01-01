@@ -6,7 +6,9 @@ const Navbar = () => {
   const [show, setShow] = useState(false)
 
   const toggleShowMenu = () => {
-    setShow(prev => !prev)
+    setTimeout(()=>{
+      setShow(prev => !prev)
+    },200)
   }
 
   return (
@@ -20,13 +22,14 @@ const Navbar = () => {
       </div>
       <div className="section-2">
         <ul className='flex gap-[28px]  py-[28px]'>
-          <li>SERVICES</li>
-          <li>ABOUT US</li>
-          <li>CONTACT US</li>
-          <li>CAREERS</li>
+          <a href="#services"><li>SERVICES</li></a>
+          <a href="#about"><li>ABOUT US</li></a>
+          <a href="#footer"><li>CONTACT US</li></a>
+          <a href="#foooter"><li>CAREERS</li></a>
         </ul>
       </div>
     </div>
+
     {/* mobile view */}
     <div className="fixed w-full flex md:hidden justify-between items-center bg-primary text-white px-[20px] py-[26px]">
       <div className="section-1">
@@ -36,7 +39,11 @@ const Navbar = () => {
       </div>
       <div className="section-2">
         <div className="button-container">
-          <button onClick={toggleShowMenu}><img src="bugger.svg" alt="" /></button>
+          {!show ? 
+            <button onClick={toggleShowMenu}><img src="bugger.svg" alt="" width={40} /></button>
+          : 
+             <button onClick={toggleShowMenu}><img src="close.svg" alt="" width={40} /></button>
+          }
         </div>
       </div>
     </div>
@@ -46,10 +53,10 @@ const Navbar = () => {
       {show && (
           <div className="fixed w-full md:hidden bg-primary text-white px-[20px] py-[26px] top-20">
           <ul className='flex flex-col gap-[10px] py-[10px]'>
-            <li>SERVICES</li>
-            <li>ABOUT US</li>
-            <li>CONTACT US</li>
-            <li>CAREERS</li>
+            <a href="#services"><li>SERVICES</li></a>
+            <a href="#about"><li>ABOUT US</li></a>
+            <a href="#footer"><li>CONTACT US</li></a>
+            <a href="#foooter"><li>CAREERS</li></a>
           </ul>
     </div>
     )}

@@ -15,7 +15,7 @@ const Home = () => {
       </div>
 
       {/* hero sectiion */}
-      <div className="hero-container mb-[30px]">
+      <div id='home' className="hero-container mb-[30px]">
 
         {/* hero -image */}
         <div className="hero-img h-[218px] md:h-[488px] w-full lg:relative">
@@ -48,7 +48,7 @@ const Home = () => {
       <div className="second-section">
 
         {/* about-section */}
-        <div className="about px-[20px] md:px-[40px] py-[30px]">
+        <div id='services' className="about px-[20px] md:px-[40px] py-[30px]">
           <div className="md:h-[275px] flex flex-col md:flex-row lg:px-[152px]  xlg:px-[188px]">
 
             <div className="left md:w-[40%] h-full flex justify-center items-center">
@@ -65,7 +65,7 @@ const Home = () => {
 
       
         {/* contact-section */}
-        <div className="contact px-[20px] md:px-[40px] py-[60px] md:py-[30px]">
+        <div  id='about' className="contact px-[20px] md:px-[40px] py-[60px] md:py-[30px]">
           <div className="md:h-[276px] flex flex-col md:flex-row ">
             
             {/* desktop view */}
@@ -79,7 +79,7 @@ const Home = () => {
             </div>
 
             {/* mobile view */}
-            <div className="flex md:hidden right md:w-[40%] h-full justify-center items-center ">
+            <div  className="flex md:hidden right md:w-[40%] h-full justify-center items-center ">
               <img src="contact/contact.svg" alt="" className='w-[275px] h-[275px]'/>
             </div>
             <div className="flex md:hidden left md:w-[60%] h-full flex-col justify-center gap-[20px]  md:pl-[20px]">
@@ -97,7 +97,7 @@ const Home = () => {
 
 
 
-      <div className="footer-container h-auto w-full">
+      <div id='footer' className="footer-container h-auto w-full">
         <Footer></Footer>
       </div>
     </div>
