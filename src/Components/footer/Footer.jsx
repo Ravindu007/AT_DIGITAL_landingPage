@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className="footer bg-primary h-full flex flex-col gap-[60px]  px-[40px] py-[40px] text-white">
+    <div className="footer bg-primary h-full flex flex-col gap-[60px]  px-[20px] md:px-[40px] py-[40px] text-white">
 
       {/* row 1 */}
       <div className="row flex flex-col md:w-[60%] gap-[20px] border-2">
@@ -17,7 +17,7 @@ const Footer = () => {
 
         <div className="left border-2">
           <ul className='flex flex-col gap-[12px]'>
-            <li className="font-semi bold text-[21px]">Our Technologies</li>
+            <li className="font-semibold text-[21px]">Our Technologies</li>
             <li className='text-[12px] md:text-[14px]'>ReactJS</li>
             <li className='text-[12px] md:text-[14px]'>Gatsby</li>
             <li className='text-[12px] md:text-[14px]'>NextJS</li>
@@ -29,7 +29,7 @@ const Footer = () => {
 
         <div className="right border-2">
         <ul className='flex flex-col gap-[12px]'>
-            <li className="font-semi bold text-[21px]">Our Services</li>
+            <li className="font-semibold text-[21px]">Our Services</li>
             <li className='text-[12px] md:text-[14px]'>Social media Marketing</li>
             <li className='text-[12px] md:text-[14px]'>Web & Mobile App Development</li>
             <li className='text-[12px] md:text-[14px]'>Data & Analytics</li>
@@ -42,7 +42,7 @@ const Footer = () => {
 
       <div className="row">
         <hr className=''/>
-        <div className='flex justify-center gap-8 text-[14px]'>
+        <div className='flex justify-center gap-8 text-[14px] py-1'>
           <p>Privacy Policy</p>
           <p>|</p>
           <p>Terms and Conditions</p>

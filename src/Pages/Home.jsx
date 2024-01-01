@@ -36,7 +36,7 @@ const Home = () => {
       <div className="second-section">
 
         {/* about-section */}
-        <div className="about px-[40px] py-[30px]">
+        <div className="about px-[20px] md:px-[40px] py-[30px]">
           <div className="md:h-[275px] flex flex-col md:flex-row border-2 border-black">
 
             <div className="left md:w-[40%] h-full flex justify-center items-center border-2 border-red-400">
@@ -53,7 +53,7 @@ const Home = () => {
 
       
         {/* contact-section */}
-        <div className="contact px-[40px] py-[30px]">
+        <div className="contact px-[20px] md:px-[40px] py-[30px]">
           <div className="md:h-[276px] flex flex-col md:flex-row border-2 border-black">
             
             {/* desktop view */}
